@@ -1,30 +1,69 @@
 <!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <title>notes_lk</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <title>notes_lk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/fonts.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/lk.css">
+  <link rel="stylesheet" href="css/lk.css">
 
-        <script src="/js/lk.js"></script>
-    </head>
-    <body>
-    <div class="lk">
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="" class="nav__link">Личный кабинет</a></li>
-                <li class="nav__item"><a href="" class="nav__link">Личные данные</a></li>
-            </ul>
-        </nav>
-        <div class="lk__body">
-            <div class="lk__row">
-                <div class="lk__col"></div>
-                <div class="lk__col"></div>
+  <script src="/js/lk.js"></script>
+</head>
+<body>
+<div class="lk">
+  <nav class="lk-nav">
+    <ul class="lk-nav__list">
+      <li class="lk-nav__item"><a href="" class="lk-nav__link">Личный кабинет</a></li>
+      <li class="lk-nav__item"><a href="" class="lk-nav__link">Личные данные</a></li>
+    </ul>
+  </nav>
+  <div class="lk__body">
+    <div class="lk__row">
+      <div class="lk__col">
+        <section class="lk-notes">
+          <header class="lk-notes__head">
+            <div class="lk-notes__head-item">
+              <div class="lk-select">
+                <div class="lk-select__item">
+                  <div class="lk-select__btn-wrap">
+                    <span class="lk-select__btn">Все записки<i class="icon icon_angle"></i></span>
+                    <div class="lk-select__list">
+                      <div class="lk-select__list-item"><a href="" class="lk-select__list-btn">Оплаченные</a></div>
+                      <div class="lk-select__list-item"><a href="" class="lk-select__list-btn">Ждут оплаты</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lk-select__item">
+                  <div class="lk-select__btn-wrap">
+                    <span class="lk-select__btn">За всё время<i class="icon icon_angle"></i></span>
+                    <div class="lk-select__list">
+                      <div class="lk-select__list-item"><a href="" class="lk-select__list-btn">Оплаченные</a></div>
+                      <div class="lk-select__list-item"><a href="" class="lk-select__list-btn">Ждут оплаты</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
+            <div class="lk-notes__head-item">
+              <div class="view-btns">
+                <div class="view-btns__item"><a href="" class="view-btns__btn"><i class="icon icon_cards"></i>Карточки</a></div>
+                <div class="view-btns__item"><a href="" class="view-btns__btn"><i class="icon icon_rows"></i>Список</a></div>
+              </div>
+            </div>
+          </header>
+          <div class="lk-notes__body">
+            <section class="lk-notes__section">
+              <header class="lk-notes__section-head">
+                <h6 class="lk-notes__section-title">Июнь</h6>
+              </header>
+              ul.lk-notes__cards>(.lk-notes__cards-item>.lk-card)*2
+            </section>
+          </div>
+        </section>
+      </div>
+      <div class="lk__col"></div>
     </div>
-    </body>
+  </div>
+</div>
+</body>
 </html>

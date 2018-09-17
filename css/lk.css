@@ -1,3 +1,120 @@
+@import 'fonts.css';
+@import 'reset.css';
+@import 'mobile.css' (max-width: 756px);
+
 .lk {
     font-family: "Trebuchet MS", sans-serif;
+    line-height: 1;
+    padding: 0 15px 50px;
+}
+
+.lk__body {
+    padding: 0 65px;
+}
+
+.lk__row {
+    display: flex;
+}
+
+.lk__col {
+    flex: 1 1 auto;
+}
+
+.lk__col:first-child {
+    padding-right: 25px;
+    margin-right: 40px;
+}
+
+.lk-nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+.lk-nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.lk-nav__item:after {
+    content: '|';
+    display: inline;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.lk-notes {
+
+}
+
+.lk-notes__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lk-notes__head-item {
+
+}
+
+.lk-select {
+    display: flex;
+}
+
+.lk-select__item {
+    margin-right: 10px;
+}
+
+.lk-select__btn-wrap {
+    position: relative;
+    background: #fff;
+}
+
+.lk-select__btn {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.lk-select__list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-top: none;
+    box-sizing: border-box;
+    border-radius: 0 0 20px 20px;
+    background: inherit;
+}
+
+.lk-select__list-item {
+    margin-bottom: 10px;
+}
+
+.lk-select__btn-wrap:hover {
+}
+
+.lk-select__btn-wrap:hover .lk-select__btn {
+    border-radius: 20px 20px 0 0;
+}
+
+.lk-select__btn-wrap:hover .lk-select__list {
+    display: block;
+}
+
+.view-btns {
+    display: flex;
+}
+
+.view-btns__item {
+    margin-right: 30px;
+}
+
+.view-btns__btn {
+
 }
