@@ -1,6 +1,7 @@
 @import 'fonts.css';
 @import 'reset.css';
 @import 'mobile.css' (max-width: 756px);
+@import 'desktop.css' (min-width: 757px);
 
 .lk {
     font-family: "Trebuchet MS", sans-serif;
@@ -23,6 +24,7 @@
 .lk__col:first-child {
     padding-right: 25px;
     margin-right: 40px;
+    flex: 0 0 58.5%;
 }
 
 .lk-nav {
@@ -53,6 +55,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid;
 }
 
 .lk-notes__head-item {
@@ -73,9 +78,11 @@
 }
 
 .lk-select__btn {
+    display: inline-block;
     padding: 10px;
     border: 1px solid;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .lk-select__list {
@@ -96,10 +103,8 @@
     margin-bottom: 10px;
 }
 
-.lk-select__btn-wrap:hover {
-}
-
 .lk-select__btn-wrap:hover .lk-select__btn {
+    border-bottom: none;
     border-radius: 20px 20px 0 0;
 }
 
@@ -117,4 +122,54 @@
 
 .view-btns__btn {
 
+}
+
+.lk-notes__section {
+    margin-bottom: 30px;
+}
+
+.lk-notes__section-head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lk-notes__section-head:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    margin-left: 20px;
+    background: #000;
+}
+
+.lk-notes__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*margin-bottom: -30px;*/
+}
+
+.lk-notes__cards-item {
+    width: calc(50% - 31px);
+    margin-bottom: 30px;
+}
+
+.lk-card {
+    padding: 14px 0 18px;
+    box-sizing: border-box;
+}
+
+.lk-card__wrap {
+    position: relative;
+    border: 4px solid #f1f2f3;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.lk-card__status {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.lk-card__status_top {
 }
