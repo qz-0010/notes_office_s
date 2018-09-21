@@ -3,9 +3,10 @@
 @import 'desktop.css' (min-width: 757px);
 
 .lk {
+    padding: 0 15px 50px;
     font-family: "Trebuchet MS", sans-serif;
     line-height: 1;
-    padding: 0 15px 50px;
+    color: #78848b;
 }
 
 .lk__body {
@@ -254,4 +255,61 @@
     background: #eee;
     font-size: 24px;
     line-height: 56px;
+}
+
+.lk-widget {
+    padding: 35px;
+    margin-bottom: 20px;
+    border: 4px solid #f1f2f3;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.lk-widget:last-child {
+    margin-bottom: 0;
+}
+
+.lk-widget_mark {
+    padding-top: 48px;
+}
+
+.lk-widget__row {
+    margin-bottom: 25px;
+}
+
+.lk-widget__row:last-child {
+    margin-bottom: 0;
+}
+
+.lk-widget__title {
+    display: block;
+    margin-bottom: 14px;
+    font-family: "PTSans", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #b79a3c;
+}
+
+.lk-widget__title_thin {
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.lk-widget__names {
+    line-height: 1.3;
+}
+
+.lk-widget__names_min {
+    font-size: 11px;
+}
+
+.lk-widget__footer {
+    margin-top: 20px;
+}
+
+.lk-widget__footer-row {
+    display: flex;
+    justify-content: space-between;
 }
