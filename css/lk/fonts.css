@@ -1,25 +1,25 @@
 @font-face {
     font-family: 'PTSans';
     font-weight: 700;
-    src: url(/css/fonts/PT_Sans-Web-Bold.ttf) format('truetype');
+    src: url(/css/lk/fonts/PT_Sans-Web-Bold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'PTSans';
     font-weight: 700;
     font-style: italic;
-    src: url(/css/fonts/PT_Sans-Web-BoldItalic.ttf) format('truetype');
+    src: url(/css/lk/fonts/PT_Sans-Web-BoldItalic.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'PTSans';
     font-weight: 400;
-    src:  url(/css/fonts/PT_Sans-Web-Regular.ttf) format('truetype');
+    src:  url(/css/lk/fonts/PT_Sans-Web-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'PTSans';
     font-weight: 400;
     font-style: italic;
-    src: url(/css/fonts/PT_Sans-Web-Italic.ttf) format('truetype');
+    src: url(/css/lk/fonts/PT_Sans-Web-Italic.ttf) format('truetype');
 }
